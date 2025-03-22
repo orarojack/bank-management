@@ -15,6 +15,7 @@ import {
   Menu,
   X,
   Users,
+  UserCog,
   Settings,
   BarChart3,
   Calculator,
@@ -41,6 +42,7 @@ export default function DashboardSidebar() {
     { href: "/dashboard/accounts", label: "My Accounts", icon: CreditCard },
     { href: "/dashboard/transactions", label: "Transaction History", icon: History },
     { href: "/dashboard/transfer", label: "Transfer Funds", icon: ArrowLeftRight },
+    { href: "/dashboard/user-transfer", label: "User Transfer", icon: Users },
     { href: "/dashboard/deposit", label: "Deposit", icon: ArrowDownCircle },
     { href: "/dashboard/withdraw", label: "Withdraw", icon: ArrowUpCircle },
     { href: "/dashboard/settings", label: "Account Settings", icon: Settings },
@@ -49,6 +51,7 @@ export default function DashboardSidebar() {
   const adminNavItems = [
     { href: "/admin/dashboard", label: "Admin Dashboard", icon: Home },
     { href: "/admin/users", label: "Manage Users", icon: Users },
+    { href: "/admin/user-management", label: "User Management", icon: UserCog },
     { href: "/admin/accounts", label: "All Accounts", icon: CreditCard },
     { href: "/admin/transactions", label: "All Transactions", icon: History },
     { href: "/admin/interest", label: "Interest Rates", icon: Calculator },
