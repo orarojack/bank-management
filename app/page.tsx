@@ -369,7 +369,7 @@ export default function Home() {
               <span className="font-bold">Banks' Account Management System</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2023 Banks' Account Management System. All rights reserved.
+              © 2025 Banks' Account Management System. All rights reserved.
             </p>
           </div>
         </div>

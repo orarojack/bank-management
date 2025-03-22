@@ -54,7 +54,7 @@ export default function AccountCard({ account }: AccountProps) {
             {account.accountType === "Savings" && (
               <div className="flex items-center gap-1 text-xs text-[hsl(var(--success))]">
                 <TrendingUp className="h-3 w-3" />
-                <span>2.5% APY</span>
+                <span>3.5% APY</span> {/* Updated APY for 2025 */}
               </div>
             )}
           </div>

@@ -14,6 +14,7 @@ type Account = {
   balance: number
   currency: string
   isActive: boolean
+  createdAt: string
 }
 
 export default function AccountsPage() {
@@ -33,25 +34,28 @@ export default function AccountsPage() {
             id: "acc1",
             accountNumber: "1234567890",
             accountType: "Savings",
-            balance: 5280.42,
+            balance: 7580.42, // Updated balance for 2025
             currency: "USD",
             isActive: true,
+            createdAt: "2024-11-15T10:30:00Z", // Account created in 2024
           },
           {
             id: "acc2",
             accountNumber: "0987654321",
             accountType: "Checking",
-            balance: 1250.0,
+            balance: 3250.0, // Updated balance for 2025
             currency: "USD",
             isActive: true,
+            createdAt: "2024-12-05T14:20:00Z", // Account created in 2024
           },
           {
             id: "acc3",
             accountNumber: "5678901234",
             accountType: "Fixed Deposit",
-            balance: 10000.0,
+            balance: 15000.0, // Updated balance for 2025
             currency: "USD",
             isActive: true,
+            createdAt: "2025-01-10T09:15:00Z", // Account created in 2025
           },
         ])
       } catch (error) {

@@ -23,7 +23,15 @@ export function generateTransactionId(): string {
 }
 
 export function calculateInterest(principal: number, rate: number, time: number): number {
-  // Simple interest calculation: P * R * T / 100
-  return (principal * rate * time) / 100
+  // Enhanced interest calculation for 2025 with compound interest
+  // Using the formula: A = P(1 + r/n)^(nt) - P
+  // Where A is the interest, P is principal, r is rate, n is compounding frequency (12 for monthly), t is time in years
+  const compoundingFrequency = 12 // Monthly compounding
+  const rateDecimal = rate / 100
+
+  const finalAmount = principal * Math.pow(1 + rateDecimal / compoundingFrequency, compoundingFrequency * time)
+  const interest = finalAmount - principal
+
+  return interest
 }
 

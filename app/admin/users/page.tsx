@@ -49,8 +49,8 @@ export default function UsersPage() {
             email: "john.doe@example.com",
             role: "user" as const,
             status: "active" as const,
-            createdAt: "2022-12-15T10:30:00Z",
-            lastLogin: "2023-03-21T08:45:00Z",
+            createdAt: "2024-11-15T10:30:00Z", // Updated to reflect account created in 2024
+            lastLogin: "2025-03-22T08:45:00Z", // Updated to 2025
           },
           {
             id: "user2",
@@ -58,8 +58,8 @@ export default function UsersPage() {
             email: "jane.smith@example.com",
             role: "user" as const,
             status: "active" as const,
-            createdAt: "2023-01-05T14:20:00Z",
-            lastLogin: "2023-03-20T16:30:00Z",
+            createdAt: "2024-12-05T14:20:00Z", // Updated to reflect account created in 2024
+            lastLogin: "2025-03-21T16:30:00Z", // Updated to 2025
           },
           {
             id: "user3",
@@ -67,8 +67,8 @@ export default function UsersPage() {
             email: "michael.johnson@example.com",
             role: "user" as const,
             status: "inactive" as const,
-            createdAt: "2023-01-10T09:15:00Z",
-            lastLogin: "2023-02-28T11:20:00Z",
+            createdAt: "2025-01-10T09:15:00Z", // Updated to 2025
+            lastLogin: "2025-02-28T11:20:00Z", // Updated to 2025
           },
           {
             id: "user4",
@@ -76,8 +76,17 @@ export default function UsersPage() {
             email: "sarah.williams@example.com",
             role: "user" as const,
             status: "locked" as const,
-            createdAt: "2023-01-15T16:45:00Z",
-            lastLogin: "2023-03-01T09:10:00Z",
+            createdAt: "2025-01-15T16:45:00Z", // Updated to 2025
+            lastLogin: "2025-03-01T09:10:00Z", // Updated to 2025
+          },
+          {
+            id: "user5",
+            name: "Alex Rodriguez", // Added new user for 2025
+            email: "alex.rodriguez@example.com",
+            role: "user" as const,
+            status: "active" as const,
+            createdAt: "2025-02-20T11:30:00Z",
+            lastLogin: "2025-03-22T10:15:00Z",
           },
           {
             id: "admin1",
@@ -85,8 +94,8 @@ export default function UsersPage() {
             email: "admin@example.com",
             role: "admin" as const,
             status: "active" as const,
-            createdAt: "2022-10-01T08:00:00Z",
-            lastLogin: "2023-03-22T07:30:00Z",
+            createdAt: "2024-10-01T08:00:00Z", // Updated to reflect account created in 2024
+            lastLogin: "2025-03-22T07:30:00Z", // Updated to 2025
           },
         ]
 

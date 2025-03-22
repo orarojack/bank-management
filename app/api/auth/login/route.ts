@@ -8,6 +8,7 @@ const users = [
     email: "user@example.com",
     password: "password123", // In a real app, this would be hashed
     role: "user",
+    createdAt: "2024-11-15T10:30:00Z", // Updated to reflect account created in 2024
   },
   {
     id: "admin1",
@@ -15,6 +16,7 @@ const users = [
     email: "admin@example.com",
     password: "admin123", // In a real app, this would be hashed
     role: "admin",
+    createdAt: "2024-10-01T08:00:00Z", // Updated to reflect account created in 2024
   },
 ]
 

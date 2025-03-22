@@ -35,75 +35,93 @@ export default function TransactionsPage() {
         const mockTransactions = [
           {
             id: "tx1",
-            date: "2023-03-21T14:30:00Z",
+            date: "2025-03-21T14:30:00Z", // Updated to 2025
             description: "Salary Deposit",
-            amount: 2500.0,
+            amount: 3200.0, // Updated amount for 2025
             type: "deposit" as const,
             accountId: "acc1",
             accountNumber: "1234567890",
           },
           {
             id: "tx2",
-            date: "2023-03-20T10:15:00Z",
+            date: "2025-03-20T10:15:00Z", // Updated to 2025
             description: "Grocery Store",
-            amount: -125.3,
+            amount: -175.3, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc2",
             accountNumber: "0987654321",
           },
           {
             id: "tx3",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer to Savings",
-            amount: -500.0,
+            amount: -800.0, // Updated amount for 2025
             type: "transfer" as const,
             accountId: "acc2",
             accountNumber: "0987654321",
           },
           {
             id: "tx4",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer from Checking",
-            amount: 500.0,
+            amount: 800.0, // Updated amount for 2025
             type: "transfer" as const,
             accountId: "acc1",
             accountNumber: "1234567890",
           },
           {
             id: "tx5",
-            date: "2023-03-15T09:20:00Z",
+            date: "2025-03-15T09:20:00Z", // Updated to 2025
             description: "Online Purchase",
-            amount: -89.99,
+            amount: -129.99, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc2",
             accountNumber: "0987654321",
           },
           {
             id: "tx6",
-            date: "2023-03-10T11:30:00Z",
+            date: "2025-03-10T11:30:00Z", // Updated to 2025
             description: "ATM Withdrawal",
-            amount: -200.0,
+            amount: -300.0, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc1",
             accountNumber: "1234567890",
           },
           {
             id: "tx7",
-            date: "2023-03-05T15:45:00Z",
+            date: "2025-03-05T15:45:00Z", // Updated to 2025
             description: "Interest Payment",
-            amount: 12.5,
+            amount: 18.5, // Updated amount for 2025
             type: "deposit" as const,
             accountId: "acc1",
             accountNumber: "1234567890",
           },
           {
             id: "tx8",
-            date: "2023-03-01T09:00:00Z",
+            date: "2025-03-01T09:00:00Z", // Updated to 2025
             description: "Rent Payment",
-            amount: -1200.0,
+            amount: -1500.0, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc2",
             accountNumber: "0987654321",
+          },
+          {
+            id: "tx9",
+            date: "2025-02-28T13:20:00Z", // Added new transaction for 2025
+            description: "Digital Subscription",
+            amount: -15.99,
+            type: "withdrawal" as const,
+            accountId: "acc2",
+            accountNumber: "0987654321",
+          },
+          {
+            id: "tx10",
+            date: "2025-02-25T09:45:00Z", // Added new transaction for 2025
+            description: "Dividend Payment",
+            amount: 75.25,
+            type: "deposit" as const,
+            accountId: "acc1",
+            accountNumber: "1234567890",
           },
         ]
 

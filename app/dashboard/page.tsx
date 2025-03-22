@@ -36,7 +36,7 @@ export default function Dashboard() {
   const [accounts, setAccounts] = useState<Account[]>([])
   const [transactions, setTransactions] = useState<Transaction[]>([])
   const [isLoading, setIsLoading] = useState(true)
-  const [savingsGoal, setSavingsGoal] = useState(10000)
+  const [savingsGoal, setSavingsGoal] = useState(15000)
   const [savingsProgress, setSavingsProgress] = useState(0)
 
   useEffect(() => {
@@ -52,7 +52,7 @@ export default function Dashboard() {
             id: "acc1",
             accountNumber: "1234567890",
             accountType: "Savings",
-            balance: 5280.42,
+            balance: 7580.42, // Updated balance for 2025
             currency: "USD",
             isActive: true,
           },
@@ -60,7 +60,7 @@ export default function Dashboard() {
             id: "acc2",
             accountNumber: "0987654321",
             accountType: "Checking",
-            balance: 1250.0,
+            balance: 3250.0, // Updated balance for 2025
             currency: "USD",
             isActive: true,
           },
@@ -71,41 +71,41 @@ export default function Dashboard() {
         const mockTransactions = [
           {
             id: "tx1",
-            date: "2023-03-21T14:30:00Z",
+            date: "2025-03-21T14:30:00Z", // Updated to 2025
             description: "Salary Deposit",
-            amount: 2500.0,
+            amount: 3200.0, // Updated amount for 2025
             type: "deposit" as const,
             accountId: "acc1",
           },
           {
             id: "tx2",
-            date: "2023-03-20T10:15:00Z",
+            date: "2025-03-20T10:15:00Z", // Updated to 2025
             description: "Grocery Store",
-            amount: -125.3,
+            amount: -175.3, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc2",
           },
           {
             id: "tx3",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer to Savings",
-            amount: -500.0,
+            amount: -800.0, // Updated amount for 2025
             type: "transfer" as const,
             accountId: "acc2",
           },
           {
             id: "tx4",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer from Checking",
-            amount: 500.0,
+            amount: 800.0, // Updated amount for 2025
             type: "transfer" as const,
             accountId: "acc1",
           },
           {
             id: "tx5",
-            date: "2023-03-15T09:20:00Z",
+            date: "2025-03-15T09:20:00Z", // Updated to 2025
             description: "Online Purchase",
-            amount: -89.99,
+            amount: -129.99, // Updated amount for 2025
             type: "withdrawal" as const,
             accountId: "acc2",
           },

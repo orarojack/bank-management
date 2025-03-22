@@ -50,56 +50,67 @@ export default function AdminAccountsPage() {
             id: "acc1",
             accountNumber: "1234567890",
             accountType: "Savings",
-            balance: 5280.42,
+            balance: 7580.42, // Updated balance for 2025
             currency: "USD",
             isActive: true,
             ownerName: "John Doe",
             ownerEmail: "john.doe@example.com",
-            createdAt: "2023-01-15T10:30:00Z",
+            createdAt: "2024-11-15T10:30:00Z", // Updated to reflect account created in 2024
           },
           {
             id: "acc2",
             accountNumber: "0987654321",
             accountType: "Checking",
-            balance: 1250.0,
+            balance: 3250.0, // Updated balance for 2025
             currency: "USD",
             isActive: true,
             ownerName: "Jane Smith",
             ownerEmail: "jane.smith@example.com",
-            createdAt: "2023-01-20T14:20:00Z",
+            createdAt: "2024-12-05T14:20:00Z", // Updated to reflect account created in 2024
           },
           {
             id: "acc3",
             accountNumber: "5678901234",
             accountType: "Fixed Deposit",
-            balance: 10000.0,
+            balance: 15000.0, // Updated balance for 2025
             currency: "USD",
             isActive: true,
             ownerName: "Michael Johnson",
             ownerEmail: "michael.johnson@example.com",
-            createdAt: "2023-02-05T09:15:00Z",
+            createdAt: "2025-01-10T09:15:00Z", // Updated to 2025
           },
           {
             id: "acc4",
             accountNumber: "4321098765",
             accountType: "Savings",
-            balance: 7500.5,
+            balance: 9500.5, // Updated balance for 2025
             currency: "USD",
             isActive: false,
             ownerName: "Sarah Williams",
             ownerEmail: "sarah.williams@example.com",
-            createdAt: "2023-02-10T16:45:00Z",
+            createdAt: "2025-01-15T16:45:00Z", // Updated to 2025
           },
           {
             id: "acc5",
             accountNumber: "9876543210",
             accountType: "Checking",
-            balance: 3200.75,
+            balance: 5200.75, // Updated balance for 2025
             currency: "USD",
             isActive: true,
             ownerName: "David Brown",
             ownerEmail: "david.brown@example.com",
-            createdAt: "2023-02-15T11:30:00Z",
+            createdAt: "2025-02-15T11:30:00Z", // Updated to 2025
+          },
+          {
+            id: "acc6",
+            accountNumber: "6543210987", // Added new account for 2025
+            accountType: "Money Market",
+            balance: 22000.0,
+            currency: "USD",
+            isActive: true,
+            ownerName: "Alex Rodriguez",
+            ownerEmail: "alex.rodriguez@example.com",
+            createdAt: "2025-02-20T11:30:00Z",
           },
         ]
 

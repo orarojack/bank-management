@@ -63,62 +63,65 @@ export default function AdminDashboard() {
 
         // Mock data
         setUserSummary({
-          totalUsers: 125,
-          activeUsers: 98,
-          newUsersThisMonth: 12,
+          totalUsers: 185, // Updated for 2025
+          activeUsers: 162, // Updated for 2025
+          newUsersThisMonth: 18, // Updated for 2025
         })
 
+        // Update the mock account summary data to reflect 2025 information
         setAccountSummary({
-          totalAccounts: 187,
-          activeAccounts: 175,
-          totalBalance: 1250680.42,
+          totalAccounts: 247, // Updated for 2025
+          activeAccounts: 235, // Updated for 2025
+          totalBalance: 2350680.42, // Updated for 2025
         })
 
+        // Update the mock transaction summary data to reflect 2025 information
         setTransactionSummary({
-          totalTransactions: 1456,
-          totalDeposits: 567,
-          totalWithdrawals: 689,
-          totalTransfers: 200,
+          totalTransactions: 2456, // Updated for 2025
+          totalDeposits: 967, // Updated for 2025
+          totalWithdrawals: 1189, // Updated for 2025
+          totalTransfers: 300, // Updated for 2025
         })
 
+        // Update the mock recent transactions data to reflect 2025 information
         setRecentTransactions([
           {
             id: "tx1",
-            date: "2023-03-21T14:30:00Z",
+            date: "2025-03-21T14:30:00Z", // Updated to 2025
             description: "Salary Deposit - John Doe",
-            amount: 2500.0,
+            amount: 3200.0, // Updated amount for 2025
             type: "deposit",
             accountId: "acc1",
           },
           {
             id: "tx2",
-            date: "2023-03-20T10:15:00Z",
+            date: "2025-03-20T10:15:00Z", // Updated to 2025
             description: "Grocery Store - Jane Smith",
-            amount: -125.3,
+            amount: -175.3, // Updated amount for 2025
             type: "withdrawal",
             accountId: "acc2",
           },
           {
             id: "tx3",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer - Michael Johnson",
-            amount: -500.0,
+            amount: -800.0, // Updated amount for 2025
             type: "transfer",
             accountId: "acc2",
           },
           {
             id: "tx4",
-            date: "2023-03-18T16:45:00Z",
+            date: "2025-03-18T16:45:00Z", // Updated to 2025
             description: "Transfer - Michael Johnson",
-            amount: 500.0,
+            amount: 800.0, // Updated amount for 2025
             type: "transfer",
             accountId: "acc1",
           },
           {
             id: "tx5",
-            date: "2023-03-15T09:20:00Z",
+            date: "2025-03-15T09:20:00Z", // Updated to 2025
             description: "Online Purchase - Sarah Williams",
-            amount: -89.99,
+            amount: -129.99, // Updated amount for 2025
             type: "withdrawal",
             accountId: "acc2",
           },

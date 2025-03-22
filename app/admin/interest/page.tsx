@@ -42,30 +42,30 @@ export default function InterestRatesPage() {
           {
             id: "rate1",
             accountType: "Savings",
-            rate: 2.5,
+            rate: 3.5, // Updated rate for 2025
             compoundingFrequency: "Daily",
-            lastUpdated: "2023-03-01T10:00:00Z",
+            lastUpdated: "2025-01-15T10:00:00Z", // Updated to 2025
           },
           {
             id: "rate2",
             accountType: "Checking",
-            rate: 0.5,
+            rate: 0.75, // Updated rate for 2025
             compoundingFrequency: "Monthly",
-            lastUpdated: "2023-03-01T10:00:00Z",
+            lastUpdated: "2025-01-15T10:00:00Z", // Updated to 2025
           },
           {
             id: "rate3",
             accountType: "Fixed Deposit",
-            rate: 5.0,
+            rate: 5.75, // Updated rate for 2025
             compoundingFrequency: "Annually",
-            lastUpdated: "2023-03-01T10:00:00Z",
+            lastUpdated: "2025-01-15T10:00:00Z", // Updated to 2025
           },
           {
             id: "rate4",
             accountType: "Money Market",
-            rate: 3.2,
+            rate: 4.25, // Updated rate for 2025
             compoundingFrequency: "Daily",
-            lastUpdated: "2023-03-01T10:00:00Z",
+            lastUpdated: "2025-01-15T10:00:00Z", // Updated to 2025
           },
         ]
 
