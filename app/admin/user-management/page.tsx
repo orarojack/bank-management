@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { MoreHorizontal, Edit, Trash, Lock, Unlock, Shield, UserIcon, UserCog } from "lucide-react"
 import UserForm from "@/components/admin/user-form"
+import Link from "next/link"
 
 export type User = {
   id: string
@@ -284,10 +285,12 @@ export default function UserManagementPage() {
           <h1 className="text-3xl font-bold tracking-tight">User Management</h1>
           <p className="text-muted-foreground">Manage users, roles, and permissions</p>
         </div>
-        <Button className="gap-2" onClick={() => setActiveTab("add-user")}>
-          <UserPlus className="h-4 w-4" />
-          Add New User
-        </Button>
+        <Link href="/admin/users/add">
+          <Button className="gap-2">
+            <UserPlus className="h-4 w-4" />
+            Add New User
+          </Button>
+        </Link>
       </div>
 
       <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-4">

@@ -28,6 +28,7 @@ import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { motion } from "framer-motion"
+import { UserPlus } from "lucide-react"
 
 export default function DashboardSidebar() {
   const { user, logout } = useAuth()
@@ -51,6 +52,7 @@ export default function DashboardSidebar() {
   const adminNavItems = [
     { href: "/admin/dashboard", label: "Admin Dashboard", icon: Home },
     { href: "/admin/users", label: "Manage Users", icon: Users },
+    { href: "/admin/users/add", label: "Add User", icon: UserPlus },
     { href: "/admin/user-management", label: "User Management", icon: UserCog },
     { href: "/admin/accounts", label: "All Accounts", icon: CreditCard },
     { href: "/admin/transactions", label: "All Transactions", icon: History },
